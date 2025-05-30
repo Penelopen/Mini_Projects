@@ -172,7 +172,7 @@ def caesar_encoding():
 def word_guess():
     import random
     import time
-    word_list = ['жопа', 'сиська', 'рука', 'глаз', 'волос', 'голова', 'нога', 'живот']
+    word_list = ['палец', 'пупок', 'рука', 'глаз', 'волос', 'голова', 'нога', 'живот']
     tries = 0
 
     def get_word(word_list):
@@ -308,7 +308,7 @@ def word_guess():
 
         time.sleep(0.5)
         if input('Сыграем ещё раз? Да/Нет: ').lower() in ('д', 'да'):
-            play(word)
+            word_guess()
     play(word)
 
 
